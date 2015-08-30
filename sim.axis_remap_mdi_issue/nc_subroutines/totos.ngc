@@ -1,0 +1,10 @@
+o<totos> sub
+(MSG, toto1)
+T1 M6
+(MSG, toto2)
+T2 M6
+o<totos> endsub
+m2
+
+
+
