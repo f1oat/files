@@ -1,5 +1,6 @@
 o<remap_m6> sub
 (DEBUG, Tool change #<tool_in_spindle> => #<selected_tool>)
 G53 G0 Z20
+G53 G0 Z10
 o<remap_m6> endsub [1]
 m2

@@ -1,0 +1,18 @@
+; Validate queue buster implementation
+o10 sub
+	o20 if [ #<_current_tool> EQ 1]
+		(MSG, tool 1)
+	o20 endif
+	o21 if [ #<_current_tool> EQ 2]
+		(MSG, tool 2)
+	o21 endif
+o10 endsub
+
+T1 M6
+o10 call
+T2 M6
+o10 call
+M2
+
+
+
